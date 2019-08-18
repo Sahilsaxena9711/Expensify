@@ -1,0 +1,28 @@
+.detailsContainer{
+    background: #f7f7f7;
+    padding: 3.2rem 0;
+    .detailsWrapper{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 80rem;
+        .detailsText{
+            font-weight: 300;
+            margin:0;
+        }
+        button{
+            background: #1c88bf;
+            border: none;
+            margin-top: 1.6rem;
+            color: #fff;
+            display: inline-block;
+            font-size: 1.8rem;
+            font-weight: 300;
+            line-height: 1;
+            padding: 1.2rem;
+            text-decoration: none;
+        }
+        button:hover{
+            background: #34a9e4;
+        }
+    }
+}

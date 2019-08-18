@@ -1,0 +1,12 @@
+.filters{
+    height: 50px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-right: 10px;
+    border: 1px solid $border-color;
+}
+
+input[type= text], input[type=date]{
+    padding-left: $s-size;
+    overflow: visible;
+}

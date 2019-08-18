@@ -1,0 +1,36 @@
+.listContainer{
+    margin-top: $m-size; 
+    .listHeader{
+        background: #f7f7f7;
+        border: 1px solid #e5e5e5;
+        color: #666;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $s-size $m-size;
+        .desktopOnly{
+            display: block;
+        }
+    }
+    .listItem{
+        text-decoration: none;
+        color: unset;
+        .descAmount{
+            padding: $s-size;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #e5e5e5;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .desktopOnly{
+        display: none !important;
+    }
+    .descAmount{
+        flex-direction: column;
+        display: block !important;
+    }
+}
